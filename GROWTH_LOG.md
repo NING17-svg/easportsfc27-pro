@@ -32,3 +32,6 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 - Content changed: Neutral placeholder content only.
 - Ad baseline: Fixed Adsterra-ready modules are present and disabled; no ad markup or request is emitted.
 - Follow-up: Replace this entry with a real launch/configuration entry when the one-click builder fills the site for a specific game.
+
+## 2026-09-17 — Adsterra six-unit integration
+- Replaced empty placeholders in `src/data/ads.ts` with the fixed six Adsterra units (Native Banner, 728x90, 468x60, 320x50, 160x600, Smartlink) for `easportsfc27.pro`; values written via the adsterra-integrator private tool, no new ad components or layout changes.
