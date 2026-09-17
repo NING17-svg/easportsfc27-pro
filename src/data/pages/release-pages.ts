@@ -1,66 +1,98 @@
-import { site } from "@/data/site";
 import type { PageContent } from "@/types/content";
 
 export const releasePages: PageContent[] = [
   {
-    id: "release-date",
-    translationKey: "release-date",
+    id: "fixed-release-info-en-US",
+    translationKey: "release-info",
     locale: "en-US",
     routeKind: "fixed",
-    slug: "release-date",
-    url: "/release-date",
+    slug: "release-info",
+    url: "/release-info",
     pageType: "release",
     presentation: { shell: "content", variant: "reading-right-rail" },
-    h1: `${site.gameName} Release Date`,
-    seoTitle: `${site.gameName} Release Date | Platforms and Launch Info`,
-    metaDescription:
-      "A release date page template for official launch timing, platforms, editions, and store links.",
-    summary:
-      "A single page for official release timing, platforms, editions, and launch status.",
+    h1: "EA SPORTS FC 27 Release Date: Advance Access and Full Launch",
+    seoTitle: "EA SPORTS FC 27 Release Date: Advance Access and Full Launch",
+    metaDescription: "EA SPORTS FC 27 release date: full launch Sep 24, 2026, Ultimate-edition Advance Access Sep 17, 2026. Pre-order on Steam, EA.com, PS Store, Xbox Store.",
+    summary: "Confirm the official EA SPORTS FC 27 release date, Advance Access window, and platform availability, and identify where to pre-order each edition.",
     hero: {
-      eyebrow: "Release info",
-      subtitle:
-        "Track release timing from official store pages, publisher announcements, and developer updates.",
+      eyebrow: "Release Info",
+      subtitle: "Quick Answer\n\nThe official EA SPORTS FC 27 release date is September 24, 2026 for the worldwide full launch across PC via Steam, PlayStation 5, PlayStation 4, Xbox Series X|S, Xbox One, and Nintendo Switch / Switch 2. Players who buy the Ul",
       ctas: [
-        { label: "Read FAQ", href: "/faq" },
-        { label: "Open Wiki", href: "/wiki" },
+        { label: "System requirements", href: "/system-requirements/" },
       ],
     },
-    quickAnswer:
-      "Replace this answer with the official release timing. If no date is confirmed, say that the release date is not officially confirmed yet.",
+    quickAnswer: "Quick Answer\n\nThe official EA SPORTS FC 27 release date is September 24, 2026 for the worldwide full launch across PC via Steam, PlayStation 5, PlayStation 4, Xbox Series X|S, Xbox One, and Nintendo Switch / Switch 2. Players who buy the Ultimate Edition get Advance Access starting September 17, 2026, seven days before the EA SPORTS FC 27 release date. Pre-orders are open through Steam, EA.com, the PlayStation Store, and the Xbox Store, with the Belgium and South Korea FC Points restriction noted for the Ultimate Edition bundle.",
     keyFacts: [
-      { label: "Release timing", value: "Replace with official date or window" },
-      { label: "Platforms", value: "Replace with confirmed platforms" },
-      { label: "Source rule", value: "Official pages only" },
+      { label: "Full launch", value: "September 24, 2026" },
+      { label: "Advance Access", value: "September 17, 2026 (Ultimate Edition)" },
+      { label: "Platforms", value: "PC (Steam), PS5, PS4, Xbox Series, Xbox One, Switch/Switch 2" },
+      { label: "Pre-order", value: "Steam, EA.com, PlayStation Store, Xbox Store" },
+      { label: "Last verified", value: "2026-09-17" },
     ],
     modules: [
-      {
-        id: "date",
-        type: "prose",
-        heading: "Release date status",
-        body:
-          "Use the official date, release window, or pending status. Do not infer a date from retailer placeholders, rumors, or search snippets.",
-      },
-      {
-        id: "platforms",
-        type: "prose",
-        heading: "Platforms",
-        body:
-          "List only confirmed platforms. If platforms are not confirmed, state that platform information is pending official confirmation.",
-      },
-      {
-        id: "stores",
-        type: "prose",
-        heading: "Store and official links",
-        body:
-          "Add official store links or publisher pages after the one-click builder collects verified source URLs.",
-        links: site.officialSources,
-      },
+      { id: "callout-faq-release-info-when-is-the-ea-sports-fc-27-release-date", type: "callout", tone: "confirmed", title: "When is the EA SPORTS FC 27 release date?", body: "The EA SPORTS FC 27 release date is September 24, 2026 for the worldwide full launch on all confirmed platforms. Ultimate Edition buyers can start playing through Advance Access on September 17, 2026." },
+      { id: "callout-faq-release-info-when-does-advance-access-start-for-ea-sp", type: "callout", tone: "confirmed", title: "When does Advance Access start for EA SPORTS FC 27?", body: "Advance Access for EA SPORTS FC 27 starts on September 17, 2026 and is included with the Ultimate Edition. It gives buyers seven days of early access before the September 24, 2026 worldwide launch." },
+      { id: "callout-faq-release-info-which-platforms-can-i-pre-order-ea-sport", type: "callout", tone: "confirmed", title: "Which platforms can I pre-order EA SPORTS FC 27 on?", body: "Pre-orders are open through Steam for PC, EA.com, the PlayStation Store, and the Xbox Store. The Nintendo Switch / Switch 2 version is part of the confirmed platform list, with Switch 2 separate SKU availability not yet confirmed at the research date 2026-09-17." },
+      { id: "callout-faq-release-info-are-there-any-regional-restrictions-on-t", type: "callout", tone: "confirmed", title: "Are there any regional restrictions on the Ultimate Edition?", body: "Yes. The Belgium and South Korea FC Points restriction is an official caveat for the Ultimate Edition bundle. Players in those regions should check the EA.com regional FAQ before pre-ordering the Ultimate Edition, since the 6,000 FC Points delivery may differ from other markets." },
+      { id: "callout-faq-release-info-has-the-pegi-rating-been-confirmed", type: "callout", tone: "confirmed", title: "Has the PEGI rating been confirmed?", body: "No. The PEGI rating was not yet confirmed at the research date 2026-09-17. The ESRB rating is E (Everyone) with descriptors \"Users Interact, In-Game Purchases (random items)\" for the United States and Canada." },
     ],
-    faqIds: ["release-date-known", "platforms-known"],
-    relatedPageIds: ["wiki", "guides", "faq"],
-    schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
-    sourceStatus: "placeholder",
-    lastReviewed: "2026-06-18",
+    faqIds: [
+      "faq-release-info-when-is-the-ea-sports-fc-27-release-date",
+      "faq-release-info-when-does-advance-access-start-for-ea-sp",
+      "faq-release-info-which-platforms-can-i-pre-order-ea-sport",
+      "faq-release-info-are-there-any-regional-restrictions-on-t",
+      "faq-release-info-has-the-pegi-rating-been-confirmed",
+    ],
+    relatedPageIds: [
+    ],
+    schemaTypes: ["Article", "BreadcrumbList"],
+    sourceStatus: "official",
+    lastReviewed: "2026-09-17",
+  },
+  {
+    id: "fixed-closed-beta-en-US",
+    translationKey: "closed-beta",
+    locale: "en-US",
+    routeKind: "fixed",
+    slug: "closed-beta",
+    url: "/closed-beta",
+    pageType: "release",
+    presentation: { shell: "content", variant: "reading-right-rail" },
+    h1: "EA SPORTS FC 27 Closed Beta: Status and How to Register",
+    seoTitle: "EA SPORTS FC 27 Closed Beta: Status and How to Register",
+    metaDescription: "The EA SPORTS FC 27 closed beta is not currently open at the research date 2026-09-17. Register interest via EA Playtesting and EA.com for future beta windows.",
+    summary: "Find out whether the EA SPORTS FC 27 closed beta is currently open and how to register interest for future closed beta windows through EA Playtesting or EA.com.",
+    hero: {
+      eyebrow: "Closed Beta",
+      subtitle: "Quick Answer\n\nThe EA SPORTS FC 27 closed beta is not currently open at the research date 2026-09-17, with the worldwide full launch scheduled for September 24, 2026. There is no public sign-up page advertising an active closed beta for EA S",
+      ctas: [
+        { label: "System requirements", href: "/system-requirements/" },
+      ],
+    },
+    quickAnswer: "Quick Answer\n\nThe EA SPORTS FC 27 closed beta is not currently open at the research date 2026-09-17, with the worldwide full launch scheduled for September 24, 2026. There is no public sign-up page advertising an active closed beta for EA SPORTS FC 27 right now. Players who want to be considered for future closed beta windows can register interest through EA Playtesting and the EA.com closed-beta registration channel, which are the official first-party routes for past EA SPORTS FC closed betas.",
+    keyFacts: [
+      { label: "Beta status", value: "Closed beta registration interest" },
+      { label: "Register", value: "EA.com / EA Playtesting" },
+      { label: "Last verified", value: "2026-09-17" },
+    ],
+    modules: [
+      { id: "callout-faq-closed-beta-is-the-ea-sports-fc-27-closed-beta-open-", type: "callout", tone: "confirmed", title: "Is the EA SPORTS FC 27 closed beta open right now?", body: "No. The EA SPORTS FC 27 closed beta is not currently open at the research date 2026-09-17. The official player-entry windows are the September 17, 2026 Ultimate Edition Advance Access and the September 24, 2026 worldwide full launch." },
+      { id: "callout-faq-closed-beta-how-do-i-sign-up-for-the-ea-sports-fc-27", type: "callout", tone: "confirmed", title: "How do I sign up for the EA SPORTS FC 27 closed beta?", body: "Create an EA Playtesting profile at ea.com/playtesting and opt in to EA Sports football playtests. Watch the EA.com EA SPORTS FC 27 hub for a \"Register Your Interest\" entry, which is the official closed-beta registration channel during active windows." },
+      { id: "callout-faq-closed-beta-when-will-the-ea-sports-fc-27-closed-bet", type: "callout", tone: "confirmed", title: "When will the EA SPORTS FC 27 closed beta start?", body: "No closed beta window or start date has been confirmed as of the research date 2026-09-17. Treat any third-party \"beta start date\" claim as unverified unless it appears on the EA.com EA SPORTS FC 27 hub, the EA SPORTS FC Direct YouTube channel, or an EA Playtesting email." },
+      { id: "callout-faq-closed-beta-is-the-ea-sports-fc-27-beta-download-saf", type: "callout", tone: "confirmed", title: "Is the EA SPORTS FC 27 beta download safe to install from third-party links?", body: "No. Any \"EA SPORTS FC 27 beta download\" link that does not come from an ea.com domain, an EA Playtesting email, or the official Steam AppID 4080220 store page should be treated as unverified." },
+      { id: "callout-faq-closed-beta-will-the-ea-sports-fc-27-closed-beta-inc", type: "callout", tone: "confirmed", title: "Will the EA SPORTS FC 27 closed beta include Career Mode and FUT playtests?", body: "That has not been confirmed. Historical EA SPORTS FC closed betas covered online playtesting, Career Mode feedback rounds, and gameplay tuning, but the EA SPORTS FC 27 closed beta scope is not yet confirmed at the research date 2026-09-17." },
+    ],
+    faqIds: [
+      "faq-closed-beta-is-the-ea-sports-fc-27-closed-beta-open-",
+      "faq-closed-beta-how-do-i-sign-up-for-the-ea-sports-fc-27",
+      "faq-closed-beta-when-will-the-ea-sports-fc-27-closed-bet",
+      "faq-closed-beta-is-the-ea-sports-fc-27-beta-download-saf",
+      "faq-closed-beta-will-the-ea-sports-fc-27-closed-beta-inc",
+    ],
+    relatedPageIds: [
+    ],
+    schemaTypes: ["Article", "BreadcrumbList"],
+    sourceStatus: "official",
+    lastReviewed: "2026-09-17",
   },
 ];

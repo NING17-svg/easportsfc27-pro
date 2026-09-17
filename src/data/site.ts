@@ -30,8 +30,8 @@ export const site: SiteConfig = {
   domain: "easportsfc27.pro",
   baseUrl: (process.env.NEXT_PUBLIC_SITE_URL || "https://easportsfc27.pro").replace(/\/$/, ""),
   description:
-    "A neutral game guide hub template for launch pages, wiki notes, guides, release information, and FAQs.",
-  tagline: "Guides, wiki notes, release info, and launch FAQs in one clean hub.",
+    "Launch-window en-US reference for EA SPORTS FC 27 (Steam AppID 4080220): release date Sep 24 2026, Ultimate-edition Advance Access Sep 17 2026, editions, Career Mode, FUT, Clubs, The Grounds, system requirements, ESRB rating, and official trailers — all anchored to the official Steam store page and the EA.com EA SPORTS FC 27 hub.",
+  tagline: "EA SPORTS FC 27 launch hub: release date, editions, Career, FUT, Clubs, system requirements, trailers, and reviews — anchored to the Steam AppID 4080220 store page and the official EA.com hub on 2026-09-17.",
   primaryLocale: "en-US",
   locales: [
     {
@@ -58,11 +58,36 @@ export const site: SiteConfig = {
   bingSiteAuthCode: process.env.NEXT_PUBLIC_BING_SITE_AUTH_CODE || "",
   officialSources: [
     {
-      label: "Official website",
-      href: "https://example.com",
-      description: "Replace this with the game publisher or developer website.",
+      label: "EA SPORTS FC 27 on Steam (AppID 4080220)",
+      href: "https://store.steampowered.com/app/4080220/",
+      description:
+        "Canonical Steam storefront entry for EA SPORTS FC 27: release date, editions, system requirements, supported languages, screenshots, and age rating.",
+    },
+    {
+      label: "EA.com EA SPORTS FC 27 hub",
+      href: "https://www.ea.com/games/ea-sports-fc/fc-27",
+      description:
+        "Official EA.com launch hub with Pitch Notes, FUT Season 1 Premium Pass, FC Points bundle, and confirmed feature deep dives.",
+    },
+    {
+      label: "EA SPORTS FC 27 FUT hub",
+      href: "https://www.ea.com/games/ea-sports-fc/fc-27/fut",
+      description:
+        "Official FUT deep dive and Season 1 Premium Pass documentation for EA SPORTS FC 27.",
+    },
+    {
+      label: "EA Pitch Notes",
+      href: "https://www.ea.com/games/ea-sports-fc/fc-27/news",
+      description:
+        "Pitch Notes archive for EA SPORTS FC 27 Career Mode, Ultimate Team, Clubs, and The Grounds deep dives.",
+    },
+    {
+      label: "EA SPORTS FC Direct YouTube channel",
+      href: "https://www.youtube.com/@EASFCDirect",
+      description:
+        "Official EA SPORTS FC Direct channel for EA SPORTS FC 27 reveal trailer, gameplay trailer, deep dive, and launch trailer.",
     },
   ],
   disclaimer:
-    "This is an unofficial fan guide template. Replace placeholder facts with official sources before launch.",
+    "EA SPORTS FC™ 27, EA SPORTS FC, and related marks are the property of Electronic Arts Inc. and its licensors. This site is an unofficial fan reference sourced from the Steam AppID 4080220 store page and the official EA.com EA SPORTS FC 27 hub on 2026-09-17; it is not endorsed by or affiliated with Electronic Arts.",
 };

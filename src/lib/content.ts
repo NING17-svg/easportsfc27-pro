@@ -1,6 +1,7 @@
 import type { FAQItem, PageContent, RouteKind } from "@/types/content";
 import { entityFamilies } from "@/data/entities";
 import { faqItems } from "@/data/faq";
+import fixturePages from "@/data/pages/fixture-pages";
 import { guidePages } from "@/data/pages/guide-pages";
 import { homePage } from "@/data/pages/home";
 import { releasePages } from "@/data/pages/release-pages";
@@ -11,11 +12,21 @@ import { normalizePath } from "@/lib/localization";
 
 const fixedPages: PageContent[] = [
   homePage,
+  ...fixturePages,
   ...wikiPages,
   ...guidePages,
   ...releasePages,
   ...sitePages,
 ];
+
+// Fixture pages live behind URLs that start with `/_`. They exist so that
+// validate-template-contract.ts can render PageHero and search-index fixtures
+// for review-date and multilingual checks, but they are excluded from the
+// indexable page set so they do not appear in the sitemap, the homepage
+// "recent updates" list, or the public search index.
+function isFixturePage(page: PageContent): boolean {
+  return page.url.startsWith("/_");
+}
 
 const pages: PageContent[] = [
   ...fixedPages,
@@ -36,7 +47,7 @@ export function getAllPages(): PageContent[] {
 }
 
 export function getIndexablePages(): PageContent[] {
-  return pages;
+  return pages.filter((page) => !isFixturePage(page));
 }
 
 export function getPageByUrl(url: string): PageContent | undefined {
@@ -68,6 +79,7 @@ export function getFinalRouteManifest(
   sourcePages: PageContent[] = pages,
 ): FinalRouteManifestEntry[] {
   return sourcePages
+    .filter((page) => !isFixturePage(page))
     .map((page) => ({
       id: page.id,
       translationKey: page.translationKey,

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "home",
+    "translationKey": "home",
+    "locale": "en-US",
+    "routeKind": "home",
+    "url": "/",
+    "alternates": {
+      "en-US": "/"
+    }
+  },
+  {
+    "id": "about",
+    "translationKey": "about",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/about",
+    "alternates": {
+      "en-US": "/about"
+    }
+  },
+  {
+    "id": "fixed-career-mode-en-US",
+    "translationKey": "career-mode",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/career-mode",
+    "alternates": {
+      "en-US": "/career-mode"
+    }
+  },
+  {
+    "id": "fixed-closed-beta-en-US",
+    "translationKey": "closed-beta",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/closed-beta",
+    "alternates": {
+      "en-US": "/closed-beta"
+    }
+  },
+  {
+    "id": "fixed-clubs-en-US",
+    "translationKey": "clubs",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/clubs",
+    "alternates": {
+      "en-US": "/clubs"
+    }
+  },
+  {
+    "id": "contact",
+    "translationKey": "contact",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/contact",
+    "alternates": {
+      "en-US": "/contact"
+    }
+  },
+  {
+    "id": "fixed-editions-en-US",
+    "translationKey": "editions",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/editions",
+    "alternates": {
+      "en-US": "/editions"
+    }
+  },
+  {
+    "id": "fixed-new-features-en-US",
+    "translationKey": "new-features",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/new-features",
+    "alternates": {
+      "en-US": "/new-features"
+    }
+  },
+  {
+    "id": "fixed-player-ratings-en-US",
+    "translationKey": "player-ratings",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/player-ratings",
+    "alternates": {
+      "en-US": "/player-ratings"
+    }
+  },
+  {
+    "id": "privacy-policy",
+    "translationKey": "privacy-policy",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/privacy-policy",
+    "alternates": {
+      "en-US": "/privacy-policy"
+    }
+  },
+  {
+    "id": "fixed-release-info-en-US",
+    "translationKey": "release-info",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/release-info",
+    "alternates": {
+      "en-US": "/release-info"
+    }
+  },
+  {
+    "id": "fixed-reviews-en-US",
+    "translationKey": "reviews",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/reviews",
+    "alternates": {
+      "en-US": "/reviews"
+    }
+  },
+  {
+    "id": "fixed-system-requirements-en-US",
+    "translationKey": "system-requirements",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/system-requirements",
+    "alternates": {
+      "en-US": "/system-requirements"
+    }
+  },
+  {
+    "id": "terms",
+    "translationKey": "terms",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/terms",
+    "alternates": {
+      "en-US": "/terms"
+    }
+  },
+  {
+    "id": "fixed-tips-en-US",
+    "translationKey": "tips",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/tips",
+    "alternates": {
+      "en-US": "/tips"
+    }
+  },
+  {
+    "id": "fixed-trailers-en-US",
+    "translationKey": "trailers",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/trailers",
+    "alternates": {
+      "en-US": "/trailers"
+    }
+  },
+  {
+    "id": "fixed-ultimate-team-en-US",
+    "translationKey": "ultimate-team",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/ultimate-team",
+    "alternates": {
+      "en-US": "/ultimate-team"
+    }
+  }
+]
