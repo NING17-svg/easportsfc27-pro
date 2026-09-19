@@ -14,6 +14,7 @@ export const primaryNavigation: LocalizedNavigationItem[] = [
   { href: "/clubs/", labels: { "en-US": "Clubs" } },
   { href: "/trailers/", labels: { "en-US": "Trailers" } },
   { href: "/new-features/", labels: { "en-US": "New Features" } },
+  { href: "/the-grounds/", labels: { "en-US": "The Grounds" } },
   { href: "/tips/", labels: { "en-US": "Tips" } },
   { href: "/reviews/", labels: { "en-US": "Reviews" } },
 ];

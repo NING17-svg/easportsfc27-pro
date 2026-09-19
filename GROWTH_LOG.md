@@ -35,3 +35,11 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## 2026-09-17 — Adsterra six-unit integration
 - Replaced empty placeholders in `src/data/ads.ts` with the fixed six Adsterra units (Native Banner, 728x90, 468x60, 320x50, 160x600, Smartlink) for `easportsfc27.pro`; values written via the adsterra-integrator private tool, no new ad components or layout changes.
+
+### 2026-09-20 - Career Mode deep dive, Defending and Crossing reworks, FUT systems and The Grounds
+
+- Task: Publish four launch-window FC 27 content updates anchored to the EA Pitch Notes launch window.
+- Files changed: `src/data/pages/guide-pages.ts` (career-mode, tips, ultimate-team, new-features, the-grounds), `src/data/pages/wiki-pages.ts` (player-ratings), `src/data/faq.ts` (new Career, FUT, Player Ratings, and The Grounds entries), `src/data/navigation.ts` (added /the-grounds), `CONTENT_INDEX.md` (new URL row + internal-link roles).
+- URLs added/updated: `/career-mode`, `/tips`, `/ultimate-team`, `/player-ratings`, `/new-features`, `/the-grounds` (new).
+- SEO/GEO changed: lastReviewed bumped to 2026-09-20 on the four reworked pages and the new The Grounds page; new primary keywords for /the-grounds; career-mode cross-link to /player-ratings and /ultimate-team; ultimate-team cross-link to /player-ratings; player-ratings cross-link to /career-mode and /ultimate-team; the-grounds cross-link to /new-features and /clubs.
+- Verification: Typecheck, lint, template/content/SEO validation, and full verify were run before commit.
