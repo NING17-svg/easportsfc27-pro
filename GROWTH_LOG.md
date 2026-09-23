@@ -36,6 +36,14 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 ## 2026-09-17 — Adsterra six-unit integration
 - Replaced empty placeholders in `src/data/ads.ts` with the fixed six Adsterra units (Native Banner, 728x90, 468x60, 320x50, 160x600, Smartlink) for `easportsfc27.pro`; values written via the adsterra-integrator private tool, no new ad components or layout changes.
 
+### 2026-09-22 - FC 27 My Club Membership four-tier programme
+
+- Task: Add a new `/club-membership` page anchored to the EA Pitch Notes FC 27 Club Membership article, with back-links from the existing editions, career-mode, the-grounds, and ultimate-team hubs.
+- Files changed: `src/data/pages/guide-pages.ts` (new `fixed-club-membership-en-US` page; back-links added on `fixed-editions-en-US`, `fixed-career-mode-en-US`, `fixed-the-grounds-en-US`, `fixed-ultimate-team-en-US`), `src/data/faq.ts` (13 new FAQ entries for the club-membership page), `src/data/navigation.ts` (added `/club-membership/` to primary navigation), `CONTENT_INDEX.md` (new URL row + cross-link updates).
+- URLs added/updated: `/club-membership` (new); `/editions`, `/career-mode`, `/the-grounds`, `/ultimate-team` (lastReviewed bumped to 2026-09-22 and relatedPageIds extended).
+- SEO/GEO changed: lastReviewed bumped to 2026-09-22 on the four hub pages; new primary keyword "FC 27 My Club Membership four-tier programme" for /club-membership; the new page cross-links to /career-mode, /the-grounds, /ultimate-team, /clubs; the four existing hubs now back-link to /club-membership.
+- Verification: Typecheck, lint, template/content/SEO validation, and full verify were run before commit.
+
 ### 2026-09-20 - Career Mode deep dive, Defending and Crossing reworks, FUT systems and The Grounds
 
 - Task: Publish four launch-window FC 27 content updates anchored to the EA Pitch Notes launch window.

@@ -12,6 +12,7 @@ export const primaryNavigation: LocalizedNavigationItem[] = [
   { href: "/career-mode/", labels: { "en-US": "Career Mode" } },
   { href: "/ultimate-team/", labels: { "en-US": "Ultimate Team" } },
   { href: "/clubs/", labels: { "en-US": "Clubs" } },
+  { href: "/club-membership/", labels: { "en-US": "Club Membership" } },
   { href: "/trailers/", labels: { "en-US": "Trailers" } },
   { href: "/new-features/", labels: { "en-US": "New Features" } },
   { href: "/the-grounds/", labels: { "en-US": "The Grounds" } },
