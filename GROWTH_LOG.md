@@ -44,6 +44,15 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 - SEO/GEO changed: lastReviewed bumped to 2026-09-22 on the four hub pages; new primary keyword "FC 27 My Club Membership four-tier programme" for /club-membership; the new page cross-links to /career-mode, /the-grounds, /ultimate-team, /clubs; the four existing hubs now back-link to /club-membership.
 - Verification: Typecheck, lint, template/content/SEO validation, and full verify were run before commit.
 
+### 2026-09-25 - FC 27 My Club Membership in-body integration on /editions, /career-mode, /the-grounds, /ultimate-team and /clubs
+
+- Task: Add an in-body Club Member section to the four gameplay / editions hubs and refresh /clubs, anchored to the EA Pitch Notes FC 27 My Club Membership article and the local /club-membership hub.
+- Files changed: `src/data/pages/guide-pages.ts` (new in-body callout modules on `fixed-editions-en-US`, `fixed-career-mode-en-US`, `fixed-the-grounds-en-US`, `fixed-ultimate-team-en-US`, `fixed-clubs-en-US`; lastReviewed bumped on the five hubs; `/clubs` relatedPageIds extended with `/club-membership`), `CONTENT_INDEX.md` (lastReviewed dates refreshed on `/editions`, `/career-mode`, `/the-grounds`, `/ultimate-team`, `/clubs`; Notes column extended with the in-body Club Member coverage and the cross-link to `/club-membership`).
+- URLs added/updated: `/editions`, `/career-mode`, `/the-grounds`, `/ultimate-team`, `/clubs` (in-body Club Member section + lastReviewed bump); `/clubs` now cross-links to `/club-membership`.
+- SEO/GEO changed: lastReviewed bumped to 2026-09-25 on the five hubs; new in-body callouts surface the Career Mode headwear + Legend + facial accessories, the The Grounds gear set (gloves + arm sleeves + boots + more) with the PS5 / Xbox Series X|S / PC / Switch 2 platform restriction, the FUT evolving tenure badge, the four-tier programme (FC 27 / II / III / Founder), the Nov 1, 2026 double-login deadline, the FC 24 Founder exemption, and a cross-link to `/club-membership` for the full programme.
+- Source: https://www.ea.com/games/ea-sports-fc/fc-27/news/fc27-club-membership (Pitch Notes) + https://easportsfc27.pro/club-membership (canonical local hub).
+- Verification: Typecheck, lint, template/content/SEO validation, and full verify were run before commit.
+
 ### 2026-09-20 - Career Mode deep dive, Defending and Crossing reworks, FUT systems and The Grounds
 
 - Task: Publish four launch-window FC 27 content updates anchored to the EA Pitch Notes launch window.

@@ -37,6 +37,7 @@ export const guidePages: PageContent[] = [
       { id: "callout-faq-editions-are-the-fc-points-delivered-all-at-once-", type: "callout", tone: "confirmed", title: "Are the FC Points delivered all at once or over time?", body: "The 6,000 FC Points included with the Ultimate Edition are delivered across 3 months, not in a single block. Players in Belgium and South Korea should review the EA.com regional FAQ because the FC Points restriction applies to that bundle." },
       { id: "callout-faq-editions-can-i-upgrade-from-standard-to-ultimate-", type: "callout", tone: "confirmed", title: "Can I upgrade from Standard to Ultimate after launch?", body: "The two editions are sold as separate pre-order SKUs on Steam, EA.com, PlayStation Store, and Xbox Store. Cross-edition upgrade paths or post-launch upgrade SKUs were not yet confirmed at the research date 2026-09-17; check the storefront of choice for the latest upgrade options." },
       { id: "callout-faq-editions-do-the-ea-sports-fc-27-editions-include-", type: "callout", tone: "confirmed", title: "Do the EA SPORTS FC 27 editions include any FC 26 content?", body: "No. The Ultimate Edition FC Points, Season 1 Premium Pass, and Advance Access window are FC 27 launch facts. FC 26 chemistry formulas, FC 26 card values, and FC 26 promotion rules are legacy reference only and are not part of the EA SPORTS FC 27 editions." },
+      { id: "callout-editions-club-member-overview", type: "callout", tone: "confirmed", title: "Club Member: which edition holders qualify?", body: "FC 27 My Club Membership is a four-tier tenure programme (FC 27 / II / III / Founder) that sits on top of either edition. Log into FC 26 and FC 27 on the same EA Account before November 1, 2026 to qualify for II or III; FC 24 founders keep Founder status automatically. The full tier table, deadlines, and mode-specific rewards live on the /club-membership hub." },
     ],
     faqIds: [
       "faq-editions-how-much-does-the-standard-edition-of-ea",
@@ -51,7 +52,7 @@ export const guidePages: PageContent[] = [
     ],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-22",
+    lastReviewed: "2026-09-25",
   },
   {
     id: "fixed-career-mode-en-US",
@@ -94,6 +95,7 @@ export const guidePages: PageContent[] = [
       { id: "callout-faq-career-mode-what-are-player-career-rivalries", type: "callout", tone: "confirmed", title: "What are Player Career Rivalries in FC 27?", body: "Player Career Rivalries are named opponents or peers tracked across a Player Career save. They surface during cutscenes and pitch moments, giving Player Career a clearer narrative arc than FC 26's run-and-grow loop." },
       { id: "callout-faq-career-mode-will-my-fc-26-career-mode-save-carry-ove", type: "callout", tone: "confirmed", title: "Will my FC 26 Career Mode save carry over to FC 27?", body: "No. EA SPORTS FC 27 is a new annual release, and Career Mode saves from FC 26 do not carry over. Each annual entry starts a fresh Career Mode." },
       { id: "callout-faq-career-mode-does-the-grounds-mode-replace-career-mod", type: "callout", tone: "confirmed", title: "Does The Grounds mode replace Career Mode?", body: "No. The Grounds mode is a new social hub introduced for EA SPORTS FC 27, but it sits alongside Career Mode. Career Mode saves do not flow into The Grounds." },
+      { id: "callout-career-mode-club-member-rewards", type: "callout", tone: "confirmed", title: "Club Member rewards in Career Mode", body: "FC 27 My Club Members unlock an exclusive headwear item, one named Legend, and a set of unique facial accessories in Career Mode. The four-tier programme (FC 27 / II / III / Founder) is gated by the November 1, 2026 double-login deadline (FC 26 + FC 27 on the same EA Account); FC 24 founders keep Founder status automatically. See /club-membership for the full tier table and deadlines." },
     ],
     faqIds: [
       "faq-career-mode-is-ea-sports-fc-27-career-mode-split-int",
@@ -114,7 +116,7 @@ export const guidePages: PageContent[] = [
     ],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-22",
+    lastReviewed: "2026-09-25",
   },
   {
     id: "fixed-ultimate-team-en-US",
@@ -161,6 +163,7 @@ export const guidePages: PageContent[] = [
       { id: "callout-faq-ultimate-team-does-the-ultimate-edition-include-fc-poi", type: "callout", tone: "confirmed", title: "Does the Ultimate Edition include FC Points?", body: "Yes. The EA SPORTS FC 27 Ultimate Edition includes 6,000 FC Points paid out across the first 3 months of the season, alongside the Season 1 Premium Pass. The Standard Edition does not include the Premium Pass or that FC Points bundle." },
       { id: "callout-faq-ultimate-team-are-fc-26-fut-card-values-still-accurate", type: "callout", tone: "confirmed", title: "Are FC 26 FUT card values still accurate?", body: "No. FC 26 card values, SBC rewards, and chemistry formulas do not automatically carry into FC 27. EA re-tunes the FUT economy each year, so last season's numbers should be treated as legacy context rather than FC 27 facts." },
       { id: "callout-faq-ultimate-team-do-i-need-ultimate-edition-to-play-fut", type: "callout", tone: "confirmed", title: "Do I need Ultimate Edition to play FUT?", body: "No. FUT itself is open to Standard Edition owners; the Ultimate Edition only adds the Season 1 Premium Pass and the 6,000 FC Points bundle layered on top of the same mode." },
+      { id: "callout-ultimate-team-club-member-badge", type: "callout", tone: "confirmed", title: "Club Member tenure badge in FUT", body: "FC 27 My Club Members get an evolving tenure badge visible in Ultimate Team that updates as you climb from FC 27 Club Member through II, III, and Founder. The four-tier programme is gated by the November 1, 2026 double-login deadline (FC 26 + FC 27 on the same EA Account); the Red Bull collaboration kit (3 kits, 3 crests, TIFO, 4 XL TIFOs) must be claimed before November 28, 2026. See /club-membership for the tier table and full reward list." },
     ],
     faqIds: [
       "faq-ultimate-team-what-is-ea-sports-fc-27-ultimate-team",
@@ -184,7 +187,7 @@ export const guidePages: PageContent[] = [
     ],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-22",
+    lastReviewed: "2026-09-25",
   },
   {
     id: "fixed-clubs-en-US",
@@ -216,6 +219,7 @@ export const guidePages: PageContent[] = [
       { id: "callout-faq-clubs-does-ea-sports-fc-27-clubs-support-cross", type: "callout", tone: "confirmed", title: "Does EA SPORTS FC 27 Clubs support cross-platform play?", body: "Yes. The EA SPORTS FC 27 Steam store page tags both Cross-Platform Multiplayer and Co-op, so Clubs supports crossplay between PC, PlayStation, and Xbox on launch." },
       { id: "callout-faq-clubs-how-many-players-per-club-in-fc-27-clubs", type: "callout", tone: "confirmed", title: "How many players per club in FC 27 Clubs?", body: "Clubs is built around 11 players on the pitch — one per outfield role. Drop-in matches fill any open slots with AI teammates when fewer than eleven players are queued." },
       { id: "callout-faq-clubs-are-fc-26-clubs-rewards-the-same-in-fc-2", type: "callout", tone: "confirmed", title: "Are FC 26 Clubs rewards the same in FC 27?", body: "No. FC 26 promotion rules, division payouts, and seasonal rewards do not automatically carry over. EA re-tunes Clubs each season, and FC 26 reward details should be treated as legacy context rather than FC 27 fact." },
+      { id: "callout-clubs-club-member-tenure", type: "callout", tone: "confirmed", title: "Club Member tenure badge for Clubs players", body: "Clubs players sit inside the FC 27 My Club Membership four-tier programme: the evolving tenure badge shows across Career Mode, The Grounds, and FUT, so cross-platform Clubs squads share the same badge as their mode-mates. FC 24 founders keep Founder status automatically; everyone else must log into FC 26 and FC 27 on the same EA Account before the November 1, 2026 double-login deadline. See /club-membership for the tier table and deadlines." },
     ],
     faqIds: [
       "faq-clubs-is-pro-clubs-in-ea-sports-fc-27",
@@ -224,10 +228,11 @@ export const guidePages: PageContent[] = [
       "faq-clubs-are-fc-26-clubs-rewards-the-same-in-fc-2",
     ],
     relatedPageIds: [
+      "fixed-club-membership-en-US",
     ],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-17",
+    lastReviewed: "2026-09-25",
   },
   {
     id: "fixed-new-features-en-US",
@@ -391,6 +396,7 @@ export const guidePages: PageContent[] = [
       { id: "callout-faq-the-grounds-can-i-reset-my-archetype", type: "callout", tone: "confirmed", title: "Can I reset my Archetype in The Grounds?", body: "Yes. FC 27 lets you reset your Archetype for free at any point, so you can experiment with the pace-first or technique-first path without losing the Mastery you have already banked on the other archetypes." },
       { id: "callout-faq-the-grounds-what-are-the-season-1-live-events", type: "callout", tone: "confirmed", title: "What are the Season 1 The Grounds Live Events?", body: "The named Season 1 Live Events are European Nights and Screaming Grounds. Each event is a time-limited themed block inside The Grounds that rotates objectives and rewards around a specific atmosphere." },
       { id: "callout-faq-the-grounds-is-the-grounds-the-same-as-volta-footba", type: "callout", tone: "confirmed", title: "Is The Grounds the same as Volta Football?", body: "No. Volta Football was the EA SPORTS FC street mode in earlier entries; The Grounds is a separate social hub introduced for FC 27 with districts, progression, and Live Events that Volta did not have." },
+      { id: "callout-the-grounds-club-member-gear", type: "callout", tone: "confirmed", title: "Club Member gear set in The Grounds", body: "FC 27 My Club Members unlock a gloves, arm sleeves, and boots gear set in The Grounds, plus additional items. The set is restricted to PS5, Xbox Series X|S, PC, and Nintendo Switch 2; PS4, Xbox One, and the original Nintendo Switch are excluded. The four-tier programme (FC 27 / II / III / Founder) is gated by the November 1, 2026 double-login deadline; FC 24 founders keep Founder status automatically. See /club-membership for the tier table and full reward list." },
     ],
     faqIds: [
       "faq-the-grounds-what-is-the-grounds-in-fc-27",
@@ -409,7 +415,7 @@ export const guidePages: PageContent[] = [
     ],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-22",
+    lastReviewed: "2026-09-25",
   },
   {
     id: "fixed-club-membership-en-US",
