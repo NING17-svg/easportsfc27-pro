@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "site_id": "easportsfc27-pro",
+  "worker": "armorsim-wiki",
+  "domain": "easportsfc27.pro",
+  "repository": "NING17-svg/easportsfc27-pro",
+  "deployment_repository": "NING17-svg/game-guide-pool-06",
+  "marker_path": "/__deployment.json",
+  "pool_id": "guide-pool-06"
+}

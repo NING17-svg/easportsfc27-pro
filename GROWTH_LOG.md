@@ -60,3 +60,7 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 - URLs added/updated: `/career-mode`, `/tips`, `/ultimate-team`, `/player-ratings`, `/new-features`, `/the-grounds` (new).
 - SEO/GEO changed: lastReviewed bumped to 2026-09-20 on the four reworked pages and the new The Grounds page; new primary keywords for /the-grounds; career-mode cross-link to /player-ratings and /ultimate-team; ultimate-team cross-link to /player-ratings; player-ratings cross-link to /career-mode and /ultimate-team; the-grounds cross-link to /new-features and /clubs.
 - Verification: Typecheck, lint, template/content/SEO validation, and full verify were run before commit.
+
+## 2026-10-01 — shared Worker deployment maintenance
+
+User-authorized routing migration to `guide-pool-06` / Worker `armorsim-wiki`; source push is connected to the shared Cloudflare Git build via the repository deploy hook. Content and public URL identities are unchanged. Completion is tracked by the central group migration report and live source/version verification.
